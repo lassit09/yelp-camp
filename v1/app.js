@@ -2,7 +2,7 @@
 var express = require('express');
 var app = express();
 
-//homepage route
+//landing page route
 app.get("/", function(req, res) {
     res.send("THIS IS THE HOMEPAGE");
 });
