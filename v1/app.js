@@ -9,5 +9,5 @@ app.get("/", function(req, res) {
 
 //make server listen
 app.listen(3000, function() {
-    console.log("Server is running...");
+    console.log("The YelpCamp Server Has Started");
 });
