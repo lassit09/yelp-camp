@@ -17,7 +17,7 @@ app.get("/campgrounds", function(req, res) {
         {name: "Mountain Goat's Rest", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJU8kuRKQ9SzP-XwuupkYAM910WgyR3o3V3MB5adzCr0xk0vF"}
     ]
     
-    res.render("campgrounds");
+    res.render("campgrounds", {campgrounds: campgrounds});
 });
 
 //catchall page
