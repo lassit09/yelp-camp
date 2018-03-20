@@ -2,9 +2,11 @@
 var express = require('express');
 var app = express();
 
+app.set("view engine", "ejs");
+
 //landing page route
 app.get("/", function(req, res) {
-    res.send("THIS IS THE HOMEPAGE");
+    res.render("landing");
 });
 
 //catchall page
