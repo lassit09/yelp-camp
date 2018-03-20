@@ -12,9 +12,9 @@ app.get("/", function(req, res) {
 //campgrounds page
 app.get("/campgrounds", function(req, res) {
     var campgrounds = [
-        {name: "Salmon Creek", image: "https://ridb.recreation.gov/images/82950.jpg"},
-        {name: "Granite Hill", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8aROYLPJmJXqDOlCRb5MAwSrUODid-cCOBZ2gy6LClH9gvxoI"},
-        {name: "Mountain Goat's Rest", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJU8kuRKQ9SzP-XwuupkYAM910WgyR3o3V3MB5adzCr0xk0vF"}
+        {name: "Salmon Creek", image: "https://pixabay.com/get/ea37b3072af7063ed1584d05fb1d4e97e07ee3d21cac104497f1c47da7e8bcbd_340.jpg"},
+        {name: "Granite Hill", image: "https://pixabay.com/get/e83db50a21f4073ed1584d05fb1d4e97e07ee3d21cac104497f1c47da7e8bcbd_340.jpg"},
+        {name: "Mountain Goat's Rest", image: "https://pixabay.com/get/e136b80728f31c22d2524518b7444795ea76e5d004b0144394f5c579a2e4b0_340.jpg"}
     ]
     
     res.render("campgrounds", {campgrounds: campgrounds});
