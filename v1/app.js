@@ -24,8 +24,14 @@ app.get("/campgrounds", function(req, res) {
 
 //post route
 app.post("/campgrounds", function(req, res) {
+    res.send("YOU HIT THE POST ROUTE")
     //get data from form and add to campgrounds array
     //redirect back to campgrounds page
+});
+
+//get
+app.get("/campgrounds/new", function(req, res) {
+    res.render("new.ejs");
 });
 
 //catchall page
