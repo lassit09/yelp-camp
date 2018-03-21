@@ -16,12 +16,12 @@ app.get("/", function(req, res) {
     res.render("landing");
 });
 
-//campgrounds page
+//campgrounds page route
 app.get("/campgrounds", function(req, res) {
     res.render("campgrounds", {campgrounds: campgrounds});
 });
 
-//post route
+//adds new campground and redirects to /campgrounds
 app.post("/campgrounds", function(req, res) {
     //get data from form and add to campgrounds array
     var name = req.body.name;
@@ -32,7 +32,7 @@ app.post("/campgrounds", function(req, res) {
     res.redirect("/campgrounds");
 });
 
-//get
+//shows the form
 app.get("/campgrounds/new", function(req, res) {
     res.render("new.ejs");
 });
