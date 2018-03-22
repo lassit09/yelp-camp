@@ -3,9 +3,9 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var campgrounds = [
-    {name: "Salmon Creek", image: "https://pixabay.com/get/ea37b3072af7063ed1584d05fb1d4e97e07ee3d21cac104497f1c47da7e8bcbd_340.jpg"},
-    {name: "Granite Hill", image: "https://pixabay.com/get/e83db50a21f4073ed1584d05fb1d4e97e07ee3d21cac104497f1c47da7e8bcbd_340.jpg"},
-    {name: "Mountain Goat's Rest", image: "https://pixabay.com/get/e136b80728f31c22d2524518b7444795ea76e5d004b0144394f5c579a2e4b0_340.jpg"}
+    {name: "Salmon Creek", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN8t9341--AV174FR94sQ4kGlTQAnrah5iYvp-GAwl-hi5QEDigA"},
+    {name: "Granite Hill", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AwJqrTGL6IcA3w205uu9-X5I1BPCsCN4C-y53tREgH63PGrj"},
+    {name: "Mountain Goat's Rest", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWwpEGQZCO0xAqvT6EYdp1ji445g1aDWPuOyRgBRo-r36fDVUd"}
 ]
 
 app.use(bodyParser.urlencoded({extended: true}));

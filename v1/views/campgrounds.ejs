@@ -10,19 +10,19 @@
             </div>
         </header>
 
-    <div class="row">
-        <div class="col-lg-12">
-            <h3>Our Most Popular Campgrounds</h3>
-        </div>
+        <h3>Our Most Popular Campgrounds</h3>
+        <div class="row">
         <% campgrounds.forEach(function(campground){ %>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-md-3 col-sm-6">
                 <div class="img-thumbnail">
-                    <img src="<%= campground.image %>" alt="campground picture">
+                    <img src="<%= campground.image %>" alt="campground picture" class="img-fluid">
+                    <div class="caption">
+                        <h4><%= campground.name %></h4>  
+                    </div>
                 </div>
-                <h4><%= campground.name %></h4>
             </div>
         <% }); %>
-    </div>
+        </div>
         
         
 
