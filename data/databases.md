@@ -28,5 +28,5 @@
 
 #Mongoose
 * What is Mongoose?
+    * An Object Data Mapper (ODM)
     * A tool/package that helps us interact with MongoDB inside our javascript files
-    
