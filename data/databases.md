@@ -25,3 +25,8 @@
                     ],
                     favFood: "Ribeye"
                 }
+
+#Mongoose
+* What is Mongoose?
+    * A tool/package that helps us interact with MongoDB inside our javascript files
+    
